@@ -1,7 +1,10 @@
 {
-  "name": "chor-js",
-  "version": "0.7.1",
-  "description": "A BPMN 2.0 choreography diagram rendering toolkit and web modeler.",
+  "name": "@bptlab/openbpt-modeler-bpmn-choreography",
+  "version": "1.0.0",
+  "description": "A fork of the chor-js repository for use in the OpenBPT platform.",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "choreography model",
     "choreography",
@@ -23,13 +26,22 @@
     "visualTest": "node ./test/testBundler.js"
   },
   "author": {
-    "name": "Jan Ladleif",
-    "url": "https://github.com/jan-ladleif"
+    "name": "bptlab",
+    "url": "https://github.com/bptlab"
   },
+  "contributors": [
+    {
+      "name": "Jan Ladleif",
+      "url": "https://github.com/jan-ladleif"
+    },
+    {
+      "name": "Maximilian König"
+    }
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bptlab/chor-js"
+    "url": "https://github.com/bptlab/openbpt-modeler-bpmn-choreography"
   },
   "assetTypesToStringify": [
     "bpmn"
